@@ -1,0 +1,214 @@
+*
+{
+	border: 0;
+	margin: 0;
+}
+
+@font-face
+{
+	font-family: "Chalet";
+	src: url("../fonts/Chalet.eot");
+	src: url("../fonts/Chalet.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Chalet.woff") format("woff"),
+		url("../fonts/Chalet.ttf") format("truetype"),
+		url("../fonts/Chalet.svg#Chalet") format("svg");
+}
+
+a
+{
+	color: #F60;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #7BBFD5;
+}
+
+body
+{
+	background: #FFF;
+	color: #212121;
+	font-family: "Chalet", Helvetica, Verdana;
+	font-size: 16px;
+}
+
+fieldset
+{
+	border: .1em solid #F60;
+	border-radius: .5em;
+	padding: 1em;
+}
+
+form
+{
+	display: none;
+}
+
+form div
+{
+	margin: .5em;
+}
+
+input[type="checkbox"], input[type="radio"], select
+{
+	background: #EEE;
+	cursor: pointer;
+}
+
+input[type="date"], input[type="email"], input[type="number"], input[type="text"]
+{
+	background: #EEE;
+	border-radius: .25em;
+	color: #F60;
+	font-size: 1em;
+	padding: .25em;
+}
+
+input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="text"]:focus
+{
+	background: #C6ECF9;
+}
+
+input[type="email"]:disabled
+{
+	background: transparent;
+	color: #CCC;
+}
+
+input[type="file"]
+{
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	width: 150px;
+}
+
+input[type="submit"]
+{
+	background: #FF9A55;
+	border-radius: 0 .25em;
+	color: #500;
+	font-family: "Chalet";
+	font-size: 1.5em;
+}
+
+input[type="submit"]:hover
+{
+	background: #7BBFD5;
+	border-radius: .25em 0;
+	color: #000;
+	cursor: pointer;
+}
+
+label
+{
+	cursor: pointer;
+	font-size: 1.2em;
+}
+
+nav, #principal
+{
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 1em;
+	margin: .25em;
+	text-align: left;
+	width: 20%;
+	vertical-align: top;
+}
+
+table
+{
+	border: .1em solid #F60;
+	border-radius: 1em;
+	cursor: default;
+	font-family: Helvetica,Verdana;
+	font-size: .75em;
+	padding: .25em;
+	width: 100%;
+}
+
+table img
+{
+	max-width: 50%;
+}
+
+table td
+{
+	border: .1em solid #212121;
+	border-radius: .5em;
+	word-wrap: break-word;
+	text-align: center;
+}
+
+table tr
+{
+	background: powderblue;
+}
+
+table thead tr
+{
+	background: transparent;
+}
+
+table tr:nth-child(even)
+{
+	background: darksalmon;
+}
+
+
+
+ul
+{
+	list-style: none;
+}
+
+#contenido
+{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#principal
+{
+	width: 75%;
+}
+
+.adjuntar-archivo
+{
+	background: #EEE url(../img/boton-buscar.png) no-repeat 100% -3px;
+	border: thin solid #F60;
+	display: inline;
+	height: 290px;
+	text-align: right;
+}
+
+.adjuntar-archivo:hover
+{
+	background: #C6ECF9 url(../img/boton-buscar2.png) no-repeat 100% -3px;
+	cursor: pointer;
+}
+
+.cambio
+{
+	-ms-transition: all 2.5s ease-out;
+	-moz-transition: all 2.5s ease-out;
+	-o-transition: all 2.5s ease-out;
+	-webkit-transition: all 2.5s ease-out;
+	transition: all 2.5s ease-out;
+}
+
+.mensajes
+{
+	background: yellow;
+	border-radius: .5em;
+	color: #000;
+	font-family: Helvetica, Verdana;
+	font-size: 1em;
+	padding: .5em;
+}
